@@ -1,0 +1,5 @@
+- hosts: "{{ hosts }}"
+  become: true
+  tasks:
+    - shell: uptime
+    - command: ls
